@@ -1,7 +1,8 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
   font-weight: 400;
+  line-height: 1.5;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -11,6 +12,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px rgb(4, 229, 143), -0.5px -1px rgb(230, 0, 255);
 }
 ul {
   padding-left: 0;
