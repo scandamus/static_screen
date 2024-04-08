@@ -6,6 +6,7 @@ export default class extends PageBase {
     constructor(params) {
         super(params);
         this.setTitle("GameMatch");
+        this.labelButton = "対戦を申し込む";
     }
 
     async getHtml() {
@@ -17,7 +18,7 @@ export default class extends PageBase {
                             <h3>user1</h3>
                             <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
                         </div>
-                        <button class="unitPlayerHeader_button">対戦を申し込む</button>
+                        <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>
                     <div class="unitPlayer_score">
                         <p>RANK: 4 (20勝3敗)</p>
@@ -30,7 +31,7 @@ export default class extends PageBase {
                             <h3>user1</h3>
                             <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
                         </div>
-                        <button class="unitPlayerHeader_button">対戦を申し込む</button>
+                        <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>
                     <div class="unitPlayer_score">
                         <p>RANK: 4 (20勝3敗)</p>
@@ -43,7 +44,7 @@ export default class extends PageBase {
                             <h3>user1</h3>
                             <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
                         </div>
-                        <button class="unitPlayerHeader_button">対戦を申し込む</button>
+                        <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>
                     <div class="unitPlayer_score">
                         <p>RANK: 4 (20勝3敗)</p>
@@ -56,7 +57,7 @@ export default class extends PageBase {
                             <h3>user1</h3>
                             <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
                         </div>
-                        <button class="unitPlayerHeader_button">対戦を申し込む</button>
+                        <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>
                     <div class="unitPlayer_score">
                         <p>RANK: 4 (20勝3敗)</p>
@@ -69,7 +70,7 @@ export default class extends PageBase {
                             <h3>user1</h3>
                             <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
                         </div>
-                        <button class="unitPlayerHeader_button">対戦を申し込む</button>
+                        <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>
                     <div class="unitPlayer_score">
                         <p>RANK: 4 (20勝3敗)</p>
