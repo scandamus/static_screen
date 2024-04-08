@@ -2,14 +2,24 @@
 
 //page
 import Home from "/js/components/Home.js";
-import Page1 from "/js/components/Page1.js";
-import Page2 from "/js/components/Page2.js";
+import PageList from "/js/components/PageList.js";
+import User from "/js/components/User.js";
+import UserRegister from "/js/components/UserRegister.js";
+import GamePlay from "/js/components/GamePlay.js";
+import GameMatch from "/js/components/GameMatch.js";
+import TournamentEntry from "/js/components/TournamentEntry.js";
+import TournamentMatch from "/js/components/TournamentMatch.js";
 
 const routes = [
+    { path: "/page_list", view: PageList },
     { path: "/", view: Home },
-    { path: "/page1", view: Page1 },
+    { path: "/user", view: User },
+    { path: "/user_register", view: UserRegister },
+    { path: "/game_play", view: GamePlay },
+    { path: "/game_match", view: GameMatch },
+    { path: "/tournament_entry", view: TournamentEntry },
+    { path: "/tournament_match", view: TournamentMatch }
     // { path: "/user/:id", components: user },
-    { path: "/page2", view: Page2 }
 ];
 
 //pathを正規表現に変換
