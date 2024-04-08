@@ -15,7 +15,7 @@
   text-shadow: 0.06em 0.06em rgb(4, 229, 143), -0.05em -0.07em rgb(230, 0, 255);
 }
 
-ul, ol {
+ul, ol, p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
@@ -27,6 +27,10 @@ a {
 }
 a:hover {
   color: #535bf2;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 body {
@@ -131,7 +135,7 @@ body {
   text-align: right;
 }
 
-/* game */
+/* GamePlay */
 .playBoardWrap {
   width: 90%;
   max-width: 800px;
@@ -139,7 +143,7 @@ body {
   padding-top: 50px;
 }
 
-.listPlayer {
+.listPlayerActiveMatch {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -150,4 +154,115 @@ body {
 #playBoard {
   width: 100%;
   background-color: #000;
+}
+
+/* GameMatch */
+.listPlayers {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.unitPlayer {
+  margin-bottom: 20px;
+  border: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+.unitPlayerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.unitPlayerHeader_name {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.unitPlayer_header h3 {
+  margin-left: 1em;
+  font-size: 1.6rem;
+}
+
+.unitPlayer_header .thumb {
+  line-height: 0;
+}
+
+.unitPlayerHeader_button {
+  position: relative;
+  /*box-sizing: border-box;*/
+  margin-right: 20px;
+  padding: 0.2em 0.8em;
+  background-color: rgba(105,134,30, 0.2);
+  border: none;
+  text-shadow: 0.06em 0.06em rgb(4, 229, 143), -0.05em -0.07em rgb(230, 0, 255);
+  font-size: 1.3rem;
+}
+
+.unitPlayerHeader_button::before,
+.unitPlayerHeader_button::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.unitPlayerHeader_button::before {
+  transform: translate(-1px, -1px);
+  border: 1px solid rgb(230, 0, 255);
+}
+
+.unitPlayerHeader_button::after {
+  transform: translate(1px, 1px);
+  border: 1px solid rgb(4, 229, 143);
+}
+
+.unitPlayerHeader_button:hover::before {
+  animation: 0.2s ease-out btnHover1;
+}
+
+.unitPlayerHeader_button:hover::after {
+  animation: 0.2s ease-out btnHover2;
+}
+
+@keyframes btnHover1 {
+  0% {
+    transform: translate(-1px, -1px);
+  }
+  50% {
+    transform: translate(1px, 1px);
+  }
+  100% {
+    transform: translate(-1px, -1px);
+  }
+}
+
+@keyframes btnHover2 {
+  0% {
+    transform: translate(1px, 1px);
+  }
+  50% {
+    transform: translate(-1px, -1px);
+  }
+  100% {
+    transform: translate(1px, 1px);
+  }
+}
+
+.unitPlayer_score {
+  display: flex;
+  padding: 0.7em 0.8em 0.5em;
+  font-size: 1.2rem;
+}
+
+.unitPlayer_score p:not(:last-child)::after {
+  content: "/";
+  margin: 0 1em;
 }
