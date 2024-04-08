@@ -7,6 +7,7 @@ export default class {
 
     setTitle(title) {
         document.title = title;
+        document.querySelector('.mainContainerHeader_title').innerText = title;
     }
 
     async getHtml() {

@@ -5,17 +5,14 @@ import PageBase from "./PageBase.js";
 export default class extends PageBase {
     constructor(params) {
         super(params);
-        this.setTitle("Home");
+        this.setTitle("LOGIN");
     }
 
     async getHtml() {
         return `
-            <h1>Home</h1>
-            <p>HomeHomeHomeHomeHomeHomeHomeHomeHomeHome</p>
-            <ul>
-                <li><a href="/page1" data-link>page1</a></li>
-                <li><a href="/page2" data-link>page2</a></li>
-            </ul>
+            <form action="" method="post">
+                <button type="submit" id="btnLogin" class="unitButton unitButton-large">Sign in with 42</button>
+            </form>
         `;
     }
 }
