@@ -10,7 +10,6 @@ export default class extends PageBase {
 
     async getHtml() {
         return `
-            <h1>PageList</h1>
             <ul>
                 <li><a href="/" data-link>login</a></li>
                 <li><a href="/user" data-link>user</a></li>
