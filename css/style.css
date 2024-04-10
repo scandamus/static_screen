@@ -22,6 +22,8 @@ button {
  common
 ----- */
 :root {
+  --heightMainHeader: 60px;
+
   --content-color1: rgb(4, 229, 143);
   --content-color2: rgb(230, 0, 255);
   --color-burn: rgba(105,134,30, 0.3);
@@ -83,6 +85,7 @@ button {
 
 /* mainHeader */
 .mainHeader {
+  height: var(--heightMainHeader);
   display: flex;
   align-items: center;
   justify-content: space-between;
