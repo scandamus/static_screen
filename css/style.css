@@ -123,9 +123,15 @@ button {
 .mainContainer {
   flex: 1 0 auto;
 }
+
 .mainContainerHeader {
   padding-top: 60px;
   text-align: center;
+}
+
+.mainContainerHeader_title {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
 }
 
 .mainContainer_content {/* #app */
@@ -374,6 +380,7 @@ input {
 }
 
 .unitPlayerHeader {
+  padding-bottom: 4px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -388,12 +395,8 @@ input {
 }
 
 .unitPlayer_header h3 {
-  margin-left: 1em;
+  margin-left: 0.6em;
   font-size: 1.6rem;
-}
-
-.unitPlayer_header .thumb {
-  line-height: 0;
 }
 
 .unitPlayerHeader_button {
