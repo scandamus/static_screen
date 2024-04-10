@@ -16,7 +16,7 @@ export default class extends PageBase {
                     <header class="unitPlayer_header unitPlayerHeader">
                         <div class="unitPlayerHeader_name">
                             <h3>user1</h3>
-                            <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
+                            <p class="thumb"><img src="//ui-avatars.com/api/?name=Aa Bb&background=e3ad03&color=ffffff" alt="" width="60" height="60"></p>
                         </div>
                         <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>
@@ -29,7 +29,7 @@ export default class extends PageBase {
                     <header class="unitPlayer_header unitPlayerHeader">
                         <div class="unitPlayerHeader_name">
                             <h3>user1</h3>
-                            <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
+                            <p class="thumb"><img src="//ui-avatars.com/api/?name=Cc Dd&background=59fa14&color=ffffff" alt="" width="60" height="60"></p>
                         </div>
                         <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>
@@ -42,7 +42,7 @@ export default class extends PageBase {
                     <header class="unitPlayer_header unitPlayerHeader">
                         <div class="unitPlayerHeader_name">
                             <h3>user1</h3>
-                            <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
+                            <p class="thumb"><img src="//ui-avatars.com/api/?name=Ee Ff&background=2e99f0&color=ffffff" alt="" width="60" height="60"></p>
                         </div>
                         <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>
@@ -55,7 +55,7 @@ export default class extends PageBase {
                     <header class="unitPlayer_header unitPlayerHeader">
                         <div class="unitPlayerHeader_name">
                             <h3>user1</h3>
-                            <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
+                            <p class="thumb"><img src="//ui-avatars.com/api/?name=Gg Hh&background=872bac&color=ffffff" alt="" width="60" height="60"></p>
                         </div>
                         <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>
@@ -68,7 +68,7 @@ export default class extends PageBase {
                     <header class="unitPlayer_header unitPlayerHeader">
                         <div class="unitPlayerHeader_name">
                             <h3>user1</h3>
-                            <p class="thumb"><img src="https://dummyimage.com/100x100/59fa14/212121.png&text=ico" alt="" width="60" height="60"></p>
+                            <p class="thumb"><img src="//ui-avatars.com/api/?name=Ii Jj&background=ff0000&color=ffffff" alt="" width="60" height="60"></p>
                         </div>
                         <button class="unitPlayerHeader_button unitButton">${this.labelButton}</button>
                     </header>

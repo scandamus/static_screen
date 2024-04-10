@@ -240,6 +240,15 @@ input {
   width: 100%;
 }
 
+/* .thumb */
+.thumb {
+  line-height: 0;
+}
+
+.thumb img {
+  border-radius: 50%;
+}
+
 /* -----
  page
 ----- */
