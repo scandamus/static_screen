@@ -157,6 +157,10 @@ button {
   color: var(--color-white);
 }
 
+.unitButton-large {
+  font-size: 1.8rem;
+}
+
 .unitButton::before,
 .unitButton::after {
   content: "";
@@ -252,6 +256,12 @@ input {
 /* -----
  page
 ----- */
+/* home */
+.blockForm-home {
+  margin-top: 50px;
+  text-align: center;
+}
+
 
 /*UserRegister*/
 .formUserResister {

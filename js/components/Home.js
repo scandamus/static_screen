@@ -11,7 +11,7 @@ export default class extends PageBase {
 
     async getHtml() {
         return `
-            <form action="" method="post">
+            <form action="" method="post" class="blockForm blockForm-home">
                 <button type="submit" id="btnLogin" class="unitButton unitButton-large">${this.labelButton}</button>
             </form>
         `;
