@@ -29,6 +29,7 @@ button {
   --color-burn: rgba(105,134,30, 0.3);
   --color-white: #fff;
   --color-white-alpha: rgba(255, 255, 255, 0.5);
+  --color-white-alpha2: rgba(255, 255, 255, 0.2);
   --color-black: #000;
   --color-black-alpha: rgba(0, 0, 0, 0.5);
 
@@ -265,6 +266,74 @@ input {
   text-align: center;
 }
 
+/*User*/
+.blockPlayerDetail {
+
+}
+
+.blockPlayerDetail_profile {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .blockPlayerDetail {
+    display: flex;
+  }
+
+  .blockPlayerDetail_profile {
+    flex: 0 0 200px;
+    margin-right: 60px;
+  }
+}
+
+.blockPlayerDetail_thumb {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.blockPlayerDetail_thumb img {
+  display: inline;
+}
+
+.blockPlayerDetail_score {
+  border: 1px solid var(--color-white);
+  box-shadow: -1px -1px var(--content-color1),
+  1px 1px var(--content-color2);
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.blockPlayerDetail_log {
+
+}
+
+.logTournament {
+  width: 100%;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.logTournament_item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 0.5em;
+  padding: 0.5em 0;
+  border-bottom: 1px solid var(--color-white-alpha2);
+}
+
+.logTournament_item strong {
+
+}
+
+.logTournament_item span {
+  font-size: 1.2rem;
+}
+
+.logTournament_item:first-child {
+  border-top: 1px solid var(--color-white-alpha2);
+}
 
 /*UserRegister*/
 .formUserResister {
