@@ -5,6 +5,8 @@ import Home from "/js/components/Home.js";
 import PageList from "/js/components/PageList.js";
 import User from "/js/components/User.js";
 import UserRegister from "/js/components/UserRegister.js";
+import UserRegisterConfirm from "/js/components/UserRegisterConfirm.js";
+import UserRegisterComplete from "/js/components/UserRegisterComplete.js";
 import GamePlay from "/js/components/GamePlay.js";
 import GameMatch from "/js/components/GameMatch.js";
 import TournamentEntry from "/js/components/TournamentEntry.js";
@@ -15,6 +17,8 @@ const routes = [
     { path: "/", view: Home },
     { path: "/user", view: User },
     { path: "/user_register", view: UserRegister },
+    { path: "/user_register_confirm", view: UserRegisterConfirm },
+    { path: "/user_register_complete", view: UserRegisterComplete },
     { path: "/game_play", view: GamePlay },
     { path: "/game_match", view: GameMatch },
     { path: "/tournament_entry", view: TournamentEntry },

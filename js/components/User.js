@@ -14,7 +14,7 @@ export default class extends PageBase {
             <div class="blockPlayerDetail">
                 <div class="blockPlayerDetail_profile">
                     <p class="blockPlayerDetail_thumb thumb"><img src="//ui-avatars.com/api/?name=Gg Hh&background=872bac&color=ffffff" alt="" width="200" height="200"></p>
-                    <p class="blockPlayerDetail_score">RANK: 4 <br>(70勝20敗)</p>
+                    <p class="blockPlayerDetail_score unitBox">RANK: 4 <br>(70勝20敗)</p>
                 </div>
                 <ul class="blockPlayerDetail_log logTournament">
                     <li class="logTournament_item"><strong>RANK: 4</strong> <span>(2024/4/2 tournament52)</span></li>

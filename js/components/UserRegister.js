@@ -6,7 +6,7 @@ export default class extends PageBase {
     constructor(params) {
         super(params);
         this.setTitle("UserRegister");
-        this.labelButton = "登録する";
+        this.labelButton = "確認する";
     }
 
     async getHtml() {
@@ -24,7 +24,7 @@ export default class extends PageBase {
                     <dt class="unitFormInput_label"><label for="">password</label></dt>
                     <dd class="unitFormInput_input"><input type="password" /></dd>
                 </dl>
-                <button type="submit" id="btnLogin" class="formUserResister_button unitButton unitButton-large">${this.labelButton}</button>
+                <button type="submit" class="formUserResister_button unitButton">${this.labelButton}</button>
             </form>
         `;
     }

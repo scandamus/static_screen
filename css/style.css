@@ -32,6 +32,7 @@ button {
   --color-white-alpha2: rgba(255, 255, 255, 0.2);
   --color-black: #000;
   --color-black-alpha: rgba(0, 0, 0, 0.5);
+  --color-black-alpha2: rgba(0, 0, 0, 0.2);
 
   font-family: "Chakra Petch", sans-serif;
   font-style: normal;
@@ -278,6 +279,12 @@ input {
   width: 100%;
 }
 
+.unitFormInput_input-confirm {
+  padding: 0 0.5em;
+  font-size: 1.6rem;
+  background-color: var(--color-black-alpha2);
+}
+
 /* .thumb */
 .thumb {
   line-height: 0;
@@ -285,6 +292,25 @@ input {
 
 .thumb img {
   border-radius: 50%;
+}
+
+/* list */
+.listButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.listButton li {
+  margin: 0 10px;
+}
+
+/* .unitBox */
+.unitBox {
+  border: 1px solid var(--color-white);
+  box-shadow: -1px -1px var(--content-color1),
+  1px 1px var(--content-color2);
 }
 
 /* -----
@@ -326,9 +352,6 @@ input {
 }
 
 .blockPlayerDetail_score {
-  border: 1px solid var(--color-white);
-  box-shadow: -1px -1px var(--content-color1),
-  1px 1px var(--content-color2);
   font-size: 1.8rem;
   text-align: center;
   line-height: 1.7;
@@ -374,6 +397,13 @@ input {
 
 .formUserResister_button {
   margin-top: 30px;
+}
+
+.unitTextComplete {
+  margin-top: 100px;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 1.8rem;
 }
 
 /* GamePlay */
